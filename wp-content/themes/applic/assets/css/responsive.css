@@ -1,0 +1,126 @@
+/*----------------------------------
+    LARGE LAYOUT: 1920px
+-----------------------------------*/
+
+@media only screen and (min-width: 1920px) {}
+@media only screen and (max-width: 1280px) {
+    
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1280px) {
+    .header-call-to-action {
+        display: none;
+    }
+}
+
+/*----------------------------------
+    MEDIUM LAYOUT: 1280px
+-----------------------------------*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .area-title h2,
+    .area-content h3 {
+        font-size: 38px;
+    }
+
+    .faqs-mockup-1 img {
+        max-width: 86%;
+    }
+
+    .screenshot-area .owl-nav {
+        bottom: -30px;
+        left: 0;
+        position: absolute;
+    }
+
+    .single-fun-fact h3 {
+        font-size: 62px;
+    }
+
+    .single-price {
+        padding: 40px 20px;
+    }
+
+    .price-thumb-hidding {
+        padding-left: 100px;
+    }
+
+    .price-thumb-hidding img {
+        width: 80px;
+    }
+}
+
+/*----------------------------------
+    TABLET LAYOUT: 768px
+------------------------------------*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .video-promo-area .area-content {
+        padding: 0;
+    }
+
+    .area-title h2,
+    .area-content h3 {
+        font-size: 38px;
+    }
+
+    .single-fun-fact h3 {
+        font-size: 52px;
+    }
+    .team-slider-two .owl-nav{
+        display: none;
+    }
+    .blog__posts__slider.owl-carousel .owl-item {
+        margin-bottom: 6;
+    }
+}
+
+/*----------------------------------
+    MOBILE LAYOUT: 320px
+-----------------------------------*/
+@media only screen and (max-width: 767px) {
+
+    .area-content h3,
+    .area-title h2 {
+        font-size: 24px;
+    }
+
+    .video-promo-area .area-content {
+        padding: 0;
+    }
+
+    .screenshot-slider,
+    .features-slider {
+        width: 100%;
+    }
+
+    .single-screenshot img {
+        margin: 0 auto;
+        max-height: 450px;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .screenshot-slider .owl-dots,
+    .features-slider .owl-dots {
+        margin-top: 0;
+    }
+
+    .single-fun-fact h3 {
+        font-size: 38px;
+    }
+    .team-slider-two .owl-nav{
+        display: none;
+    }
+}
+
+/*----------------------------------
+    WIDE MOBILE LAYOUT: 480px
+-----------------------------------*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .area-content h3,
+    .area-title h2 {
+        font-size: 32px;
+    }
+}
